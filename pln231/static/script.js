@@ -14,7 +14,6 @@ $(document).ready(function() {
         var estacao = $("input[type='radio'][name='estacao']:checked").val(); // Nova variável estacao
         var regiao = $("input[type='radio'][name='regiao']:checked").val(); // Nova variável regiao
         var instrIngr = $("input[type='radio'][name='ingredientes']:checked").val();
-        var time = dateTime.toLocaleTimeString(); 
         // Clear
         $('#rec_title').html('');
         $('#rec_desc').html('');
